@@ -1,0 +1,91 @@
+/* === HEADER STYLE === */
+
+.header {
+  background: url(images/header-bg.png) no-repeat center;
+  background-size: cover;
+  width: 100wv;
+  height: 100%;
+}
+  
+/* === LOGO STYLE === */
+
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+}
+
+.logo {
+  padding: 14px 16px;
+  
+}
+/* === TOP NAVBAR STYLE === */
+
+.top-navbar {
+  padding: 3%;
+  position: relative;
+}
+.active {
+  border-bottom: 1px solid #11749e;
+}
+.top-navbar a {
+  display: block;
+  white-space: nowrap;
+  color: #ffff;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+}
+
+.top-navbar a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.top-navbar ul{
+  list-style: none;
+  }
+
+.top-navbar li {
+  display: inline-block;
+}
+
+/* === TOP NAV SOCIAL ICONS STYLE === */
+
+.top-nav-social {
+  
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  color: #ffff;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.header-text h1{
+  text-align: center;
+  font-size: 10rem;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+.header-text h3{
+  text-align: center;
+  font-size: 2rem;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .top-nav-bar {
+    display: none;
+  }
+}
