@@ -78,13 +78,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 2rem;
+  font-size: 4vw;
   text-transform: uppercase;
   color: #ffff;
 }
 .header-text h1{
   padding-top: 10rem;
-  font-size: 10rem;
+  font-size: 15vw;
 }
 
 .top-about {
@@ -102,6 +102,9 @@
 
 @media screen and (max-width: 768px){
 
+  .header {
+    width: 100wv;
+  }
   
 .top-container {
   display: flex;
@@ -110,7 +113,7 @@
 }
 
 .top-navbar {
-  flex: 2;
+  flex: 1;
   order: 2;
   flex-direction: column;
   
@@ -126,7 +129,7 @@
   display: block;
   white-space: nowrap;
   color: #ffff;
-  padding: 14px 16px;
+  
   text-decoration: none;
   font-size: 1rem;
   text-align: center;
@@ -141,10 +144,12 @@
 .logo {
   flex: 1;
   order: 1;
+  padding: 3vw;
   }
   
 .top-nav-social {
   flex: 1;
   order: 3;
+  padding: 3vw;
 }
 }
