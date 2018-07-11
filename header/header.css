@@ -11,7 +11,7 @@
 .top-container {
   display: flex;
   align-items: center;
-  align-content: flex-end;
+  justify-content: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5)
 }
 
@@ -101,14 +101,50 @@
 /* === MEDIA QUERIES === */
 
 @media screen and (max-width: 768px){
+
+  
 .top-container {
   display: flex;
-  flex-direction: column;
-  }
+  justify-content: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+}
 
 .top-navbar {
-  display: none;
-  align-self: flex-start;
-  padding: 3rem 3rem;
+  flex: 2;
+  order: 2;
+  flex-direction: column;
+  
+}
+
+.active {
+  background-color: grey;
+  opacity: 0.5;
+  color: black;
+}
+
+.top-navbar ul li {
+  display: block;
+  white-space: nowrap;
+  color: #ffff;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.top-navbar a:hover {
+  background-color: #ffff;
+  opacity: 0.5;
+  color: grey;
+}
+
+.logo {
+  flex: 1;
+  order: 1;
+  }
+  
+.top-nav-social {
+  flex: 1;
+  order: 3;
 }
 }
