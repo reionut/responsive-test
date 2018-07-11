@@ -4,7 +4,6 @@
   background: url(images/header-bg.png) no-repeat center;
   background-size: cover;
   width: 100wv;
-  height: 100%;
 }
   
 /* === LOGO STYLE === */
@@ -12,30 +11,33 @@
 .top-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  align-content: flex-end;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5)
 }
 
 .logo {
   padding: 14px 16px;
-  
+  flex: 1;
 }
 /* === TOP NAVBAR STYLE === */
 
 .top-navbar {
-  padding: 3%;
+  flex:2;
+  padding: 3rem 3rem;
   position: relative;
 }
+
 .active {
   border-bottom: 1px solid #11749e;
 }
+
 .top-navbar a {
   display: block;
   white-space: nowrap;
   color: #ffff;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -54,11 +56,11 @@
 /* === TOP NAV SOCIAL ICONS STYLE === */
 
 .top-nav-social {
-  
+  flex: 1;
 }
 
 .fa {
-  padding: 10px;
+  padding: 1rem;
   font-size: 30px;
   width: auto;
   text-align: center;
@@ -69,25 +71,44 @@
 .fa:hover {
     opacity: 0.7;
 }
+
+/* === HEADER TEXT CONTENT === */
+
 .header-text {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #ffff;
 }
 .header-text h1{
-  text-align: center;
+  padding-top: 10rem;
   font-size: 10rem;
-  color: #ffff;
-  text-transform: uppercase;
 }
 
-.header-text h3{
-  text-align: center;
-  font-size: 2rem;
-  color: #ffff;
-  text-transform: uppercase;
+.top-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
 }
 
-@media screen and (min-width: 768px) {
-  .top-nav-bar {
-    display: none;
+.top-about img{
+  padding: 1rem;
+}
+
+/* === MEDIA QUERIES === */
+
+@media screen and (max-width: 768px){
+.top-container {
+  display: flex;
+  flex-direction: column;
   }
+
+.top-navbar {
+  display: none;
+  align-self: flex-start;
+  padding: 3rem 3rem;
+}
 }
