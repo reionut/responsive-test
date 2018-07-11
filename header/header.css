@@ -23,7 +23,7 @@
 
 .top-navbar {
   flex:2;
-  padding: 3rem 3rem;
+  padding: 14px 16px;
   position: relative;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .fa {
-  padding: 1rem;
+  padding: 15px;
   font-size: 30px;
   width: auto;
   text-align: center;
@@ -83,7 +83,7 @@
   color: #ffff;
 }
 .header-text h1{
-  padding-top: 10rem;
+  padding-top: 100px;
   font-size: 15vw;
 }
 
@@ -91,11 +91,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10rem;
+  padding-top: 100px;
 }
 
 .top-about img{
-  padding: 1rem;
+  padding: 15px;
 }
 
 /* === MEDIA QUERIES === */
@@ -144,12 +144,12 @@
 .logo {
   flex: 1;
   order: 1;
-  padding: 3vw;
+  padding-left: 20px;
   }
   
 .top-nav-social {
   flex: 1;
   order: 3;
-  padding: 3vw;
+  padding-right: 20px;
 }
 }
