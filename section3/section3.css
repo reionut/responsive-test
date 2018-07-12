@@ -1,0 +1,19 @@
+.s3-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.s3-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+
+}
+
+h2, h3{
+  background-color: #ffff;
+  text-align: center;
+}
