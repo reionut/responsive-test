@@ -1,0 +1,66 @@
+/* === MAIN CONTAINER STYLE === */
+ /*  (s2 comes from section2)  */
+
+.s2-container {
+  display: flex;
+  justify-content: center;
+  background: url(images/s2bg.png) no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* === WRAPPER CONTAINER STYLE === */
+
+.s2-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+   width: 80%;
+}
+
+.s2-text {
+ flex: 1;
+}
+
+.s2-text h2{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin: 30px 0px;
+}
+
+.s2-text p {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.slide-phones-button {
+  width: 100%;
+  background-color: #11749e;
+  padding: 5px;
+  color: #fff;
+  margin-top: 50px;
+  
+}
+.s2-images {
+  flex: 1;
+  margin: 70px;
+}
+
+.images img {
+  max-width:100%;
+  float: right;
+}
+
+/* === MEDIA QUERIES FOR SECTION2 === */
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .images {
+  margin-top: 30px
+}
+}
