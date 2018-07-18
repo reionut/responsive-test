@@ -28,3 +28,16 @@ document.querySelector('#swapButton').addEventListener('click', function(){
     document.querySelector('#phoneImage').setAttribute('src', phones[currentIndex + 1])
   }  
 });
+
+//Section 4
+
+document.getElementById('s4Button').addEventListener('click', function () {
+  var name = document.getElementById('nameInput').value;
+  document.getElementById('nameOutput').innerHTML = name;
+   var email = document.getElementById('emailInput').value;
+  document.getElementById('emailOutput').innerHTML = email;
+   var phone = document.getElementById('phoneInput').value;
+  document.getElementById('phoneOutput').innerHTML = phone;
+   var message = document.getElementById('messageInput').value;
+  document.getElementById('messageOutput').innerHTML = message;
+});

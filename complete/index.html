@@ -146,20 +146,24 @@ Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, 
     <!-- SECTION4 -->
       <div class="section4">
       <div class="s4-wrapper">
-        <h1>We’d love to hear about your project.
-</h1>
+        <h1>We’d love to hear about your project.</h1>
     <div class="s4-input-area">
-      <input type="text" placeholder="Name">
-      <input type="text" placeholder="Email">
-      <input type="text" placeholder="Phone">
+      <input type="text" placeholder="Name" id="nameInput">
+      <input type="text" placeholder="Email" id="emailInput">
+      <input type="text" placeholder="Phone" id="phoneInput">
      </div>
     <div>
-      <textarea class="s4-message-box" placeholder="Message"></textarea>
+      <textarea class="s4-message-box" placeholder="Message" id="messageInput"></textarea>
       </div>
         <div>
-          <button class="s4-button">Submit</button>
+          <button class="s4-button" id="s4Button">Submit</button>
           </div>
-        <div id="s4-output-text">Name:<br />Email:<br />Phone:<br />Message:</div>
+        <div id="s4-output-text">
+          <p>Name: <span id="nameOutput"></span></p><br />
+          <p>Email: <span id="emailOutput"></span></p><br />
+          <p>Phone: <span id="phoneOutput"></span></p><br />
+          <p>Message: <span id="messageOutput"></span></p>
+        </div>
         </div>
      </div>
       <script src="script.js"></script>
