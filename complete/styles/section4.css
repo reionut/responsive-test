@@ -4,6 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  
 }
 
 .s4-wrapper {
@@ -11,6 +13,7 @@
   width: 80%;
   flex-direction: column;
 }
+
 .s4-wrapper h1 {
   font-size: 2rem;
   text-transform: uppercase;
@@ -19,6 +22,7 @@
   margin-bottom: 50px;
   margin-top: 40px;
 }
+
 .s4-input-area {
   display: flex;
   flex-direction: row;
@@ -33,7 +37,6 @@ input[type=text] {
   resize: vertical;
   color: #ffffff;
 }
-
 
 .s4-message-box {
   width: 100%;
