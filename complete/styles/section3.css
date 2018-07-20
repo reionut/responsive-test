@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  height: 600px;
+  height: 100vh;
 }
 
 .s3-wrapper {
@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
+  overflow: visible;
 }
 
 .john-snow {
