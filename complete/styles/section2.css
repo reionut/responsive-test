@@ -64,3 +64,10 @@
   margin-top: 30px
 }
 }
+
+
+@media screen and (max-width: 900px){
+	.s2-wrapper {
+		flex-flow: column nowrap;
+	}
+}

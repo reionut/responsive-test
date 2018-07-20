@@ -4,7 +4,6 @@
   background: #11749e;
   font-family: 'Roboto', sans-serif;
 }
-
 .about-h{
   background: url(../images/W.png) no-repeat center;
   font-size: 3vw;
@@ -30,7 +29,7 @@
 }
 
 .features4 img:hover{
-  color: #ffff;
+  color: #fff;
   opacity: .5;
 }
 

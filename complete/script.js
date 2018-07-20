@@ -5,6 +5,7 @@ var hideAboutUs = false;
 document.querySelector('#aboutButton').addEventListener('click', function(){
   hideAboutUs = !hideAboutUs;
   if (hideAboutUs === true) {
+    console.log(123)
     document.querySelector('#aboutContainer').className = 'container hide';
     aboutImgRotate.style.transform = 'rotate(180deg)';
   } else {

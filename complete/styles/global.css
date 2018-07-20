@@ -1,5 +1,5 @@
 /* === GLOBAL STYLES === */
 
 .hide {
-  display: none;
+    display: none !important;
 }

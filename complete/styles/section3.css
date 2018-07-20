@@ -12,98 +12,51 @@
   width: 80%;
   margin: auto;
   overflow: visible;
+	padding: 100px 0;
 }
 
-.john-snow {
-  width: 150px;
-  height: 20px;
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #fff;
+.image-box {
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: #fff;
 }
 
-.lady-sansa2 {
-  width: 150px;
-  height: 20px;
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #fff;
-}
-
-.david-smith {
-   width: 150px;
-  height: 20px;
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #fff;
-}
-
-.lady-sansa {
-  width: 150px;
-  height: 20px;
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #fff;
-}
-
-.s3-img1 {
-  background: url(../images/johnsnow.png);
+.s3-img {
   height: 414px;
   width: 270px;
   position: relative;
-  margin: 10px; 
+  margin: 30px;
+}
+
+.s3-img1 {
+	background: url(../images/johnsnow.png);
 }
 
 .s3-img2 {
   background: url(../images/ladysansa2.png);
-  height: 414px;
-  width: 270px;
-  position: relative;
-  margin: 10px; 
 }
 
 .s3-img3 {
   background: url(../images/davidsmith.png);
-  height: 414px;
-  width: 270px;
-  position: relative;
-  margin: 10px;
 }
 
 .s3-img4 {
   background: url(../images/ladysansa.png);
-  height: 414px;
-  width: 270px;
-  position: relative;
-  margin: 10px; 
 }
 
 .s3-container h2 {
-  width: 150px;
-  height: 20px;
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-  margin: auto;
   background-color: #fff;
   text-align: center;
   color: #11749e;
+	margin-top: 2px;
 }
 
 .s3-container h3 {
   text-align: center;
-  bottom: 10px;
+  margin-top: 4px;
 }
